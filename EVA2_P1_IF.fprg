@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Gabael"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 05:23:15 PM"/>
+        <attribute name="created" value="R2FiYWVsO0RFU0tUT1AtNzQzM0ExUzsyMDIzLTEwLTA5OzA1OjA3OjA0IFBNOzI4Mzg="/>
+        <attribute name="edited" value="R2FiYWVsO0RFU0tUT1AtNzQzM0ExUzsyMDIzLTEwLTA5OzA1OjIzOjE1IFBNOzE7Mjk0Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Calificacion" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese su calificacion:&quot;" newline="True"/>
+            <input variable="Calificacion"/>
+            <if expression="Calificacion&gt;=70">
+                <then>
+                    <output expression="&quot;Aprobado. Viajamos a cancun&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No acreditado&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Fin del programa&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
